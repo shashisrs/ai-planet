@@ -1,0 +1,60 @@
+.app {
+  background: rgb(214, 160, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(214, 160, 255, 1) 0%,
+    rgba(223, 118, 255, 1) 52%
+  );
+}
+
+/* camera background */
+
+app {
+  background: rgb(171, 211, 244);
+  background: linear-gradient(
+    90deg,
+    rgba(171, 211, 244, 1) 2%,
+    rgba(122, 232, 216, 1) 71%
+  );
+}
+
+/* ai-planet color */
+.app{
+    color:e26dff
+}
+/* search bar background color */
+app{
+    color:#4fbeff
+}
+ /* a platform where background color */
+ app{
+    color:#989bd7
+ }
+ /* categories boundry color */
+
+ app{
+    color:#e073ff
+ }
+
+ /* addcreative background color */
+ app{
+    color:#ffeff8
+ }
+ /* try now color */
+ app{
+    color:#e26dff
+ }
+ /* cody color */
+ app{
+    color:#d3daff
+ }
+ /* text color */
+ app{
+    color:#818282
+ }
+
+ /* footer gradient */
+ app{
+    background: #cf66ff;
+background: linear-gradient(0deg, rgba(207,101,255,1) 0%, rgba(185,104,255,1) 100%);
+ }

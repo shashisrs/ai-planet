@@ -1,0 +1,103 @@
+<!-- <div
+  class="gap-2 w-full sm:w-10/12 h-[55vh] min-h-[45vh] max-h-[55vh] mx-auto mt-5 relative"
+>
+  <div
+    class="camera w-full flex flex-col items-center h-[50vh] md:h-[50vh] p-3 shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-lg"
+  >
+    <div class="text-[#ffffff] flex flex-col gap-2 mt-12 items-center">
+      <h1 class="font-bold text-2xl md:text-5xl sm:text-center tracking-wider">
+        Welcome to AI-PLANET
+      </h1>
+      <p class="text-base md:text-2xl">A platform for all ai tools</p>
+    </div>
+    <div class="bg-white mt-12 w-[80%] xs:w-[50%] md:w-[40%] rounded-full p-1">
+      <div
+        class="flex items-center z-10 gap-3 p-2 pl-3 pr-6 bg-[#4fbeff] w-[50%] md:w-[45%] rounded-full text-white"
+      >
+        <svg
+          stroke="currentColor"
+          fill="currentColor"
+          stroke-width="0"
+          viewBox="0 0 16 16"
+          height="1em"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+          ></path></svg
+        ><input
+          placeholder="Search"
+          class="bg-transparent outline-none placeholder:text-white w-full"
+          fdprocessedid="bvrcym"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="findAi shadow-[0_3px_10px_rgb(0,0,0,0.2)] flex w-[85%] sm:w-[75%] max-w-full h-[44%] md:h-1/2 p-3 md:pl-20 justify-between rounded-lg items-center absolute top-[64%] translate-y-[8%] left-1/2 -translate-x-1/2"
+  >
+    <div>
+      <p
+        class="text-base ml-1 sm:text-sm lg:text-3xl xl:text-lg 2xl:text-xl text-white"
+      >
+        <span class="text-3xl md:text-5xl font-bold tracking-wide"
+          >Find Ai,</span
+        ><br />with our new ai feature
+      </p>
+    </div>
+    <img
+      src="/static/media/camera.abf857b272c6732953a6.png"
+      class="animate-bounce-slow sm:ml-0 mr-2 w-[13.5rem] md:w-[21.875rem] max-w-full h-auto"
+      alt=""
+    />
+  </div>
+</div>
+
+
+<div>
+  <select className="border border-[#e26dff]">
+  <option value="">categories</option>
+  {categories.map(category=>{
+    return  <option value={category.title} key={category.id}>{category.title}</option>
+    
+  } )
+  }
+  </select>
+</div> -->
+
+
+
+
+
+<div className="w-[calc(100vw-20%)] mt-4">
+  {/* Sidebar option Heading */}
+<div className="flex flex-col">
+    <div className="text-lg font-semibold mb-4">Dashboard</div>
+      <div>
+        <div className="w-[50%] border p-2 rounded-xl border-[#e26dff]  ">
+          <div className="flex items-center gap-3 p-1 pl-3 pr-1 bg-[#e26dff] w-[20%] rounded-xl text-white">
+            <BsSearch />
+            <input
+              placeholder="Search"
+              className="bg-transparent outline-none placeholder:text-white w-full"
+            />
+          </div>
+        </div>
+        <div>
+        <select className="border border-[#e26dff]">
+        <option value="">categories</option>
+        {categories.map(category=>{
+          return  <option value={category.title} key={category.id}>{category.title}</option>
+          
+        } )
+        }
+        </select>
+      </div>
+      </div>
+      
+ </div>
+
+    <div>
+    </div>
+  </div>

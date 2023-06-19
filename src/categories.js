@@ -1,0 +1,50 @@
+export const categories=[
+    {
+        id:1,
+        title:"3D"
+    },
+    {
+        id:2,
+        title:"art"
+    },
+    {
+        id:3,
+        title:"audio editing"
+    },
+    {
+        id:4,
+        title:"video editing"
+    },
+    {
+        id:5,
+        title:"avatars"
+    },
+    {
+        id:6,
+        title:"code assistant"
+    },
+    {
+        id:7,
+        title:"copyright"
+    },
+    {
+        id:8,
+        title:"song"
+    },
+    {
+        id:9,
+        title:"android"
+    },
+    {
+        id:10,
+        title:"news"
+    },
+    {
+        id:11,
+        title:"email"
+    },
+    {
+        id:12,
+        title:"images"
+    },
+]
